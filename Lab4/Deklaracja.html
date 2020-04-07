@@ -1,354 +1,377 @@
 <!doctype html>
 <html lang="en">
-  <head>
+ 
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+ 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ 
     <title>Formularz</title>
-  </head>
-  <body>
-    
-
-				<div class="row">
-					<div class="col-md-6 offset-md-3 mt-3 mb-4 text-center">
-					<h5 >DEKLARACJA WYBORU ŚWIADCZENIODAWCY UDZIELAJĄCEGO
-						ŚWIADCZEŃ Z ZAKRESU PODSTAWOWEJ OPIEKI ZDROWOTNEJ
-						ORAZ LEKARZA PODSTAWOWEJ OPIEKI ZDROWOTNEJ </h5>
-					</div>
-					
-                    <div class="col-md-4 offset-md-1 text-center">
-					
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label> Imię </label>                   
-                                    <input class=form-control type="text"  id="imie" min="3" max="25" required />                                   
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label> Nazwisko </label>
-                                    <input class=form-control type="text" id="nazwisko" min="3" max="25" required />  
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label> Data urodzenia </label>
-                                    <input class=form-control type="date" id="dataUrodzenia" required />
-                                </div>
-                            </div>
-                        </div>
-                    
-					
-						<div class="row">
-								<div class="col-md-12">
-									<div class="form-group">
-										<label> Nazwisko rodowe </label>
-										<input class=form-control type="text" id="nazwiskoRodowe" min="3" max="25" required />
-									</div>
-								</div>
-							</div>
-						
-					
-						<div class="row">
-								<div class="col-md-12">
-									<div class="form-group">
-										<label> Płeć </label>
-										<select class="form-control" id="sel1" required>
-											<option>Kobieta</option>
-											<option>Mężczyzna</option>											
-										</select>
-									</div>
-								</div>
-							</div>
-						
-					
-							<div class="row">
-								<div class="col-md-12">
-									<div class="form-group">
-										<label> Numer PESEL </label>
-										<input class=form-control type="number" id="pesel" min="11" max="11" required />
-									</div>
-								</div>
-							</div>
-							
-							<div class="row">
-								<div class="col-md-12">
-									<div class="form-group">
-										<label> Adres zamieszkania </label>
-										<input class=form-control type="text" id="adresZamieszkania"  max="35" required />
-									</div>
-								</div>
-							</div>
-							
-							
-							
-							
-					</div>
-					
-					<div class="col-md-4 offset-md-2 text-center">
-                        <div class="row">
-								<div class="col-md-12">
-									<div class="form-group">
-										<label> Ulica </label>
-										<input class=form-control type="text" id="ulica" max="35" />
-									</div>
-								</div>
-							</div>
-							
-							<div class="row">
-								<div class="col-md-12">
-									<div class="form-group">
-										<label> Numer domu </label>
-										<input class=form-control type="number" id="numerDomu" min="1" max="3" required />
-									</div>
-								</div>
-							</div>
-							
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<label> Kod pocztowy  </label>
-										<input class=form-control type="number" id="kodPocztowy" max="6" required />
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label> Miejscowość  </label>
-										<input class=form-control type="text" id="miejscwoscPoczta" max="35" required />
-									</div>
-								</div>
-							</div>
-						
-						
-						<div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label> Numer telefonu </label>
-                                    <input class=form-control type="number" id="numerTelefonu" max="9" required />
-                                </div>
-                            </div>
-                        </div>
-						
-						<div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Miejsce nauki w przypadku uczniów i studentów</label>
-                                    <input class=form-control type="text" id="miejsceNauki" max="45" />
-                                </div>
-                            </div>
-                        </div>
-						
-						<div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Numer karty ubezpieczenia zdrowotnego</label>
-                                    <input class=form-control type="number" id="numerKartyUbez" required />
-                                </div>
-                            </div>
-                        </div>
-						
-						<div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Kod oddziału wojewódzkiego Narodowego Funduszu zdrowia</label>
-                                    <input class=form-control type="number" id="kodOddziału" max="2" required />
-                                </div>
-                            </div>
-                        </div>
-						
-						
-						
-					</div>
-						
-                    
+</head>
+ 
+<body>
+ 
+ 
+    <div class="row">
+        <div class="col-md-6 offset-md-3 mt-3 mb-4 text-center">
+            <h5>DEKLARACJA WYBORU ŚWIADCZENIODAWCY UDZIELAJĄCEGO
+                ŚWIADCZEŃ Z ZAKRESU PODSTAWOWEJ OPIEKI ZDROWOTNEJ
+                ORAZ LEKARZA PODSTAWOWEJ OPIEKI ZDROWOTNEJ </h5>
+        </div>
+ 
+        <div class="col-md-4 offset-md-1 text-center">
+ 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label> Imię </label>
+                        <input class=form-control type="text" id="imie" min="3" max="25" required />
+                    </div>
                 </div>
-
-                <div class="row">
-					<div class="col-md-4 offset-md-1 text-center">
-						<div class="row">
-							<div class="col-md-12 mt-5">
-								<div class="form-group ">
-									<label>................................................................<br>(data)</label>			
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-4 offset-md-2 text-center">
-						<div class="row">
-							<div class="col-md-12 mt-5">
-								<div class="form-group ">
-									<label>.................................................................................................
-									<br>(podpis świadczeniobiorcy lub opiekuna prawnego)</label>			
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-				<div class="row">
-					<div class="col-md-6 offset-md-3 mt-3 mb-4 text-center">
-						<h5>II. DANE DOTYCZĄCE ŚWIADCZENIODAWCY </h5>
-						<h6>Na podstawie art. 28 ust. 1 ustawy z dnia 27 sierpnia 2004 r. o świadczeniach opieki zdrowotnej<br>
-						finansowanych ze środków publicznych deklaruję wybór:</h6>
-							<div class="mt-3">
-								<p>..............................................................................................................................................................<br>(dane dotyczące świadczeniodawcy – nazwa (firma), siedziba i miejsce udzielania świadczeń)</p>
-								<p>..............................................................................................................................................................</p>
-								<p>..............................................................................................................................................................</p>
-								<h6>W bieżącym roku dokonuję wyboru:<sup>2)</sup></h6>								
-							</div>
-							<div class="mt-4">
-							<div class="form-check form-check-inline">
-							  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor1" value="option1">
-							  <label class="form-check-label" for="wybor1">po raz pierwszy</label>
-							</div>
-							<div class="form-check form-check-inline">
-							  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor2" value="option2">
-							  <label class="form-check-label" for="wybor2">po raz drugi</label>
-							</div>
-							<div class="form-check form-check-inline">
-							  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor3" value="option3">
-							  <label class="form-check-label" for="wybor3">po raz trzeci</label>
-							</div>
-							<div class="form-check form-check-inline">
-							  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor4" value="option4">
-							  <label class="form-check-label" for="wybor4">po raz kolejny</label>
-							</div>
-							
-							
-							</div>
-					</div>
-				</div>
-				
-				<div class="row">
-					<div class="col-md-4 offset-md-1 text-center">
-						<div class="row">
-							<div class="col-md-12 mt-5">
-								<div class="form-group ">
-									<label>................................................................<br>(data)</label>			
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-4 offset-md-2 text-center">
-						<div class="row">
-							<div class="col-md-12 mt-5">
-								<div class="form-group ">
-									<label>.................................................................................................
-									<br>(podpis świadczeniobiorcy lub opiekuna prawnego)</label>			
-								</div>
-							</div>
-						</div>
-						
-						
-					</div>
-				</div>
-				
-				
-				<div class="row">
-					<div class="col-md-6 offset-md-3 mt-3 mb-4 text-center">
-						<h5>III. DANE DOTYCZĄCE LEKARZA PODSTAWOWEJ OPIEKI ZDROWOTNEJ </h5>
-						<h6>Na podstawie art. 28 ust. 1 ustawy z dnia 27 sierpnia 2004 r. o świadczeniach opieki zdrowotnej<br>
-						finansowanych ze środków publicznych deklaruję wybór:</h6>
-							<div class="mt-3">
-								<p>..............................................................................................................................................................<br>(dane dotyczące świadczeniodawcy – nazwa (firma), siedziba i miejsce udzielania świadczeń)</p>
-								<p>..............................................................................................................................................................</p>
-								<p>..............................................................................................................................................................</p>
-								<h6>W bieżącym roku dokonuję wyboru:<sup>2)</sup></h6>								
-							</div>
-							<div class="mt-4">
-							<div class="form-check form-check-inline">
-							  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor1" value="option1">
-							  <label class="form-check-label" for="wybor1">po raz pierwszy</label>
-							</div>
-							<div class="form-check form-check-inline">
-							  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor2" value="option2">
-							  <label class="form-check-label" for="wybor2">po raz drugi</label>
-							</div>
-							<div class="form-check form-check-inline">
-							  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor3" value="option3">
-							  <label class="form-check-label" for="wybor3">po raz trzeci</label>
-							</div>
-							<div class="form-check form-check-inline">
-							  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor4" value="option4">
-							  <label class="form-check-label" for="wybor4">po raz kolejny</label>
-							</div>
-							
-							
-							</div>
-					</div>
-				</div>
-				
-				<div class="row">
-					<div class="col-md-4 offset-md-1 text-center">
-						<div class="row">
-							<div class="col-md-12 mt-5">
-								<div class="form-group ">
-									<label>................................................................<br>(data)</label>			
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-4 offset-md-2 text-center">
-						<div class="row">
-							<div class="col-md-12 mt-5">
-								<div class="form-group ">
-									<label>.................................................................................................
-									<br>(podpis świadczeniobiorcy lub opiekuna prawnego)</label>			
-								</div>
-							</div>
-						</div>
-						
-						<div class="row">
-							<div class="col-md-12 mt-5">
-								<div class="form-group ">
-									<label>.................................................................................................
-									<br>(podpis osoby przyjmującej deklarację wyboru)</label>			
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div class="row">
-					<div class="col-md-6 offset-md-3 mt-3 mb-4 mt-5 text-left">
-						<u><b>Objaśnienia:<br></b></u>
-						<div class="row mt-3 ml-1" style="font-size:12px">
-							<sup>1)</sup> <p>Jeżeli świadczeniobiorcy została wydana karta ubezpieczenia zdrowotnego, a w przypadku osób uprawnionych na podstawie
-								przepisów o koordynacji – numer poświadczenia potwierdzającego prawo do świadczeń opieki zdrowotnej w ramach
-								ubezpieczenia zdrowotnego na terytorium Rzeczypospolitej Polskiej.</p>
-						</div>
-						<div class="row mt-1 ml-1" style="font-size:12px">
-							<sup>2)</sup> <p>Świadczeniobiorca ma prawo bezpłatnego wyboru świadczeniodawcy, lekarza, pielęgniarki i położnej podstawowej opieki
-								zdrowotnej nie częściej niż trzy razy w roku kalendarzowym, a w przypadku każdej kolejnej zmiany wnosi opłatę
-								w wysokości 80 zł. Świadczeniobiorca nie ponosi opłaty w przypadku zmiany swojego miejsca zamieszkania lub w przypadku
-								zaprzestania udzielania świadczeń opieki zdrowotnej przez wybranego świadczeniodawcę, lekarza, pielęgniarkę lub położną
-								podstawowej opieki zdrowotnej u wybranego świadczeniodawcy lub z innych przyczyn powstałych po stronie
-								świadczeniodawcy (art. 28 ust. 1c i 1d ustawy z dnia 27 sierpnia 2004 r. o świadczeniach opieki zdrowotnej finansowanych
-								ze środków publicznych).</p>
-						</div>
-						<div class="row mt-1 ml-1" style="font-size:12px">
-							<sup>3)</sup> <p>Świadczeniobiorca może wybrać lekarza, pielęgniarkę lub położną podstawowej opieki zdrowotnej u tego samego
-								świadczeniodawcy, u różnych świadczeniodawców albo będących świadczeniodawcami (art. 28 ust. 1b ustawy z dnia
-								27 sierpnia 2004 r. o świadczeniach opieki zdrowotnej finansowanych ze środków publicznych).</p>
-						</div>
-					</div>
-				</div>
-                       
-    
-  </body>
+            </div>
+ 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label> Nazwisko </label>
+                        <input class=form-control type="text" id="nazwisko" min="3" max="25" required />
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label> Data urodzenia </label>
+                        <input class=form-control type="date" id="dataUrodzenia" required />
+                    </div>
+                </div>
+            </div>
+ 
+ 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label> Nazwisko rodowe </label>
+                        <input class=form-control type="text" id="nazwiskoRodowe" min="3" max="25" required />
+                    </div>
+                </div>
+            </div>
+ 
+ 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label> Płeć </label>
+                        <select class="form-control" id="sel1" required>
+                            <option>Kobieta</option>
+                            <option>Mężczyzna</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+ 
+ 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label> Numer PESEL </label>
+                        <input class=form-control type="number" id="pesel" min="11" max="11" required />
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label> Adres zamieszkania </label>
+                        <input class=form-control type="text" id="adresZamieszkania" max="35" required />
+                    </div>
+                </div>
+            </div>
+ 
+ 
+ 
+ 
+        </div>
+ 
+        <div class="col-md-4 offset-md-2 text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label> Ulica </label>
+                        <input class=form-control type="text" id="ulica" max="35" />
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label> Numer domu </label>
+                        <input class=form-control type="number" id="numerDomu" min="1" max="3" required />
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label> Kod pocztowy </label>
+                        <input class=form-control type="number" id="kodPocztowy" max="6" required />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label> Miejscowość </label>
+                        <input class=form-control type="text" id="miejscwoscPoczta" max="35" required />
+                    </div>
+                </div>
+            </div>
+ 
+ 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label> Numer telefonu </label>
+                        <input class=form-control type="number" id="numerTelefonu" max="9" required />
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Miejsce nauki w przypadku uczniów i studentów</label>
+                        <input class=form-control type="text" id="miejsceNauki" max="45" />
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Numer karty ubezpieczenia zdrowotnego</label>
+                        <input class=form-control type="number" id="numerKartyUbez" required />
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Kod oddziału wojewódzkiego Narodowego Funduszu zdrowia</label>
+                        <input class=form-control type="number" id="kodOddziału" max="2" required />
+                    </div>
+                </div>
+            </div>
+ 
+ 
+ 
+        </div>
+ 
+ 
+    </div>
+ 
+    <div class="row">
+        <div class="col-md-4 offset-md-1 text-center">
+            <div class="row">
+                <div class="col-md-12 mt-5">
+                    <div class="form-group ">
+                        <label>................................................................<br>(data)</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <div class="col-md-4 offset-md-2 text-center">
+            <div class="row">
+                <div class="col-md-12 mt-5">
+                    <div class="form-group ">
+                        <label>.................................................................................................
+                            <br>(podpis świadczeniobiorcy lub opiekuna prawnego)</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+ 
+    <div class="row">
+        <div class="col-md-6 offset-md-3 mt-3 mb-4 text-center">
+            <h5>II. DANE DOTYCZĄCE ŚWIADCZENIODAWCY </h5>
+            <h6>Na podstawie art. 28 ust. 1 ustawy z dnia 27 sierpnia 2004 r. o świadczeniach opieki zdrowotnej<br>
+                finansowanych ze środków publicznych deklaruję wybór:</h6>
+            <div class="mt-3">
+                <p>..............................................................................................................................................................<br>(dane
+                    dotyczące świadczeniodawcy – nazwa (firma), siedziba i miejsce udzielania świadczeń)</p>
+                <p>..............................................................................................................................................................
+                </p>
+                <p>..............................................................................................................................................................
+                </p>
+                <h6>W bieżącym roku dokonuję wyboru:<sup>2)</sup></h6>
+            </div>
+            <div class="mt-4">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor1" value="option1">
+                    <label class="form-check-label" for="wybor1">po raz pierwszy</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor2" value="option2">
+                    <label class="form-check-label" for="wybor2">po raz drugi</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor3" value="option3">
+                    <label class="form-check-label" for="wybor3">po raz trzeci</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor4" value="option4">
+                    <label class="form-check-label" for="wybor4">po raz kolejny</label>
+                </div>
+ 
+ 
+            </div>
+        </div>
+    </div>
+ 
+    <div class="row">
+        <div class="col-md-4 offset-md-1 text-center">
+            <div class="row">
+                <div class="col-md-12 mt-5">
+                    <div class="form-group ">
+                        <label>................................................................<br>(data)</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <div class="col-md-4 offset-md-2 text-center">
+            <div class="row">
+                <div class="col-md-12 mt-5">
+                    <div class="form-group ">
+                        <label>.................................................................................................
+                            <br>(podpis świadczeniobiorcy lub opiekuna prawnego)</label>
+                    </div>
+                </div>
+            </div>
+ 
+ 
+        </div>
+    </div>
+ 
+ 
+    <div class="row">
+        <div class="col-md-6 offset-md-3 mt-3 mb-4 text-center">
+            <h5>III. DANE DOTYCZĄCE LEKARZA PODSTAWOWEJ OPIEKI ZDROWOTNEJ </h5>
+            <h6>Na podstawie art. 28 ust. 1 ustawy z dnia 27 sierpnia 2004 r. o świadczeniach opieki zdrowotnej<br>
+                finansowanych ze środków publicznych deklaruję wybór:</h6>
+            <div class="mt-3">
+                <p>..............................................................................................................................................................<br>(dane
+                    dotyczące świadczeniodawcy – nazwa (firma), siedziba i miejsce udzielania świadczeń)</p>
+                <p>..............................................................................................................................................................
+                </p>
+                <p>..............................................................................................................................................................
+                </p>
+                <h6>W bieżącym roku dokonuję wyboru:<sup>2)</sup></h6>
+            </div>
+            <div class="mt-4">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor1" value="option1">
+                    <label class="form-check-label" for="wybor1">po raz pierwszy</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor2" value="option2">
+                    <label class="form-check-label" for="wybor2">po raz drugi</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor3" value="option3">
+                    <label class="form-check-label" for="wybor3">po raz trzeci</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wybor4" value="option4">
+                    <label class="form-check-label" for="wybor4">po raz kolejny</label>
+                </div>
+ 
+ 
+            </div>
+        </div>
+    </div>
+ 
+    <div class="row">
+        <div class="col-md-4 offset-md-1 text-center">
+            <div class="row">
+                <div class="col-md-12 mt-5">
+                    <div class="form-group ">
+                        <label>................................................................<br>(data)</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <div class="col-md-4 offset-md-2 text-center">
+            <div class="row">
+                <div class="col-md-12 mt-5">
+                    <div class="form-group ">
+                        <label>.................................................................................................
+                            <br>(podpis świadczeniobiorcy lub opiekuna prawnego)</label>
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="row">
+                <div class="col-md-12 mt-5">
+                    <div class="form-group ">
+                        <label>.................................................................................................
+                            <br>(podpis osoby przyjmującej deklarację wyboru)</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="row">
+        <div class="col-md-6 offset-md-3 mt-3 mb-4 mt-5 text-left">
+            <u><b>Objaśnienia:<br></b></u>
+            <div class="row mt-3 ml-1" style="font-size:12px">
+                <sup>1)</sup>
+                <p>Jeżeli świadczeniobiorcy została wydana karta ubezpieczenia zdrowotnego, a w przypadku osób
+                    uprawnionych na podstawie
+                    przepisów o koordynacji – numer poświadczenia potwierdzającego prawo do świadczeń opieki zdrowotnej
+                    w ramach
+                    ubezpieczenia zdrowotnego na terytorium Rzeczypospolitej Polskiej.</p>
+            </div>
+            <div class="row mt-1 ml-1" style="font-size:12px">
+                <sup>2)</sup>
+                <p>Świadczeniobiorca ma prawo bezpłatnego wyboru świadczeniodawcy, lekarza, pielęgniarki i położnej
+                    podstawowej opieki
+                    zdrowotnej nie częściej niż trzy razy w roku kalendarzowym, a w przypadku każdej kolejnej zmiany
+                    wnosi opłatę
+                    w wysokości 80 zł. Świadczeniobiorca nie ponosi opłaty w przypadku zmiany swojego miejsca
+                    zamieszkania lub w przypadku
+                    zaprzestania udzielania świadczeń opieki zdrowotnej przez wybranego świadczeniodawcę, lekarza,
+                    pielęgniarkę lub położną
+                    podstawowej opieki zdrowotnej u wybranego świadczeniodawcy lub z innych przyczyn powstałych po
+                    stronie
+                    świadczeniodawcy (art. 28 ust. 1c i 1d ustawy z dnia 27 sierpnia 2004 r. o świadczeniach opieki
+                    zdrowotnej finansowanych
+                    ze środków publicznych).</p>
+            </div>
+            <div class="row mt-1 ml-1" style="font-size:12px">
+                <sup>3)</sup>
+                <p>Świadczeniobiorca może wybrać lekarza, pielęgniarkę lub położną podstawowej opieki zdrowotnej u tego
+                    samego
+                    świadczeniodawcy, u różnych świadczeniodawców albo będących świadczeniodawcami (art. 28 ust. 1b
+                    ustawy z dnia
+                    27 sierpnia 2004 r. o świadczeniach opieki zdrowotnej finansowanych ze środków publicznych).</p>
+            </div>
+        </div>
+    </div>
+ 
+ 
+</body>
+ 
 </html>
