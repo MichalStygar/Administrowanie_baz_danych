@@ -1,0 +1,10 @@
+﻿@model NowaAplikacja.Models.AdminUserViewModel
+@{
+    ViewBag.Title = "Admin Page";
+}
+    <div class="userview">
+        @{Html.RenderPartial("ShowUserDetails");
+            <p class="text-success">@ViewBag.StatusMessage</p>
+            <p class="text-error">@ViewBag.ErrorMessage</p>
+        }
+    </div>
